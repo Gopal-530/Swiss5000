@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Swiss5000</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">New Nomination</string>
+    <string name="title_notifications">Awards</string>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".ui.theme.Authentification.WelcomeScreen2">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="300dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/about1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_marginVertical="15dp"
+                    android:textSize="19dp"
+                    android:fontFamily="@font/poppinsemibold"
+                    android:text="Why Swiss 5000?"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:text="What if MSME have quality in their work of production, services or Management? How their professional work gets recognized? Where they can get their listing as the best quality services, product or management? The solution of all these is Swiss 5000 Business Awards as swiss 5000 is doing Recognition and Research to provide a platform for India’s 5000 Best MSME."/>
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+        <ImageView
+            android:id="@+id/Image1"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/next" />
+
+        <ImageView
+            android:id="@+id/Image2"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10dp"
+            android:rotation="180"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/next" />
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

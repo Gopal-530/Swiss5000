@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".ui.theme.Authentification.WelcomeScreen1">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="300dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/about1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="15dp"
+                    android:fontFamily="@font/poppinsemibold"
+                    android:text="About Swiss 5000"
+                    android:textColor="@color/black"
+                    android:textSize="19dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:text="Swiss 5000 is a research group, initiated and organized by Benchmark Trust, which has created a platform by doing research and recognition for 5000 best MSME (Micro Small Medium Enterprises) in quality output. The Swiss 5000 Business Awards get initiated when we get nominations from businessmen and young entrepreneurs for their achievements. After getting all the details and based on certain quality parameters, Swiss 5000 nominates best 5000 MSME companies. These best 5000 MSME companies are selected for quality management, quality services or quality products. So, Swiss 5000 provides a platform to businessmen and entrepreneurs for Quality Excellence!" />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+        <ImageView
+            android:id="@+id/Image1"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/next" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
